@@ -3,7 +3,7 @@ from turtle import *
 tracer(0)
 left(90)
 screensize(5000, 5000)
-size = 10
+size = 18
 
 pendown()
 
@@ -32,7 +32,11 @@ penup()
 for x in range(-50, 50):
     for y in range(-60, 60):
         setpos(x*size, y*size)
-        dot(4, 'red')
+        dot(4, 'blue')
 
 input()
 done()
+
+'''
+Ответ: 536
+'''
